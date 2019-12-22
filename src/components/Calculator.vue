@@ -7,30 +7,30 @@
       <vs-button type="line" @click="percent" class="btn" color="white">%</vs-button>
       
       <!-- ops -->
-      <span @click="divide" class="btn operator">/</span>
+      <vs-button type="line" @click="divide" class="btn operator" color="orange">/</vs-button>
       <!--  class="btn" -->
-      <span @click="append('7')" class="btn">7</span>
-      <span @click="append('8')" class="btn">8</span>
-      <span @click="append('9')" class="btn">9</span>
+      <vs-button type="line" @click="append('7')" class="btn" color="white">7</vs-button>
+      <vs-button type="line" @click="append('8')" class="btn" color="white">8</vs-button>
+      <vs-button type="line" @click="append('9')" class="btn" color="white">9</vs-button>
       <!-- ops -->
-      <span @click="multiply" class="btn operator">X</span>
+      <vs-button type="line" @click="multiply" class="btn operator" color="orange">x</vs-button>
       <!--  class="btn" -->
-      <span @click="append('4')" class="btn">4</span>
-      <span @click="append('5')" class="btn">5</span>
-      <span @click="append('6')" class="btn">6</span>
+      <vs-button type="line" @click="append('4')" class="btn" color="white">4</vs-button>
+      <vs-button type="line" @click="append('5')" class="btn" color="white">5</vs-button>
+      <vs-button type="line" @click="append('6')" class="btn" color="white">6</vs-button>
       <!-- ops -->
-      <span @click="subtract" class="btn operator">-</span>
+      <vs-button type="line" @click="subtract" class="btn operator" color="orange">-</vs-button>
       <!--  class="btn" -->
-      <span @click="append('1')" class="btn">1</span>
-      <span @click="append('2')" class="btn">2</span>
-      <span @click="append('3')" class="btn">3</span>
+      <vs-button type="line" @click="append('1')" class="btn" color="white">1</vs-button>
+      <vs-button type="line" @click="append('2')" class="btn" color="white">2</vs-button>
+      <vs-button type="line" @click="append('3')" class="btn" color="white">3</vs-button>
       <!-- ops -->
-      <span @click="add" class="btn operator">+</span>
-      <!--  -->
-      <span @click="append('0')" class="btn zero">0</span>
-      <span @click="dot('.')" class="btn">.</span>
+      <vs-button type="line" @click="add" class="btn operator" color="orange">+</vs-button>
+      <!-- sero -->
+      <vs-button type="line" @click="append('0')" class="btn zero" color="white">0</vs-button>
+      <vs-button type="line" @click="dot('.')" class="btn" color="white">.</vs-button>
       <!-- ops -->
-      <span @click="compute" class="btn operator">=</span>
+      <vs-button type="line" @click="compute" class="btn operator" color="orange">=</vs-button>
   </div>
 </template>
 
@@ -149,7 +149,7 @@ export default {
 .operator {
   color: white;
   text-align: center;
-  background-color: rgb(255, 153, 0);
+  /* background-color: rgb(255, 153, 0); */
 }
 .calculator {
   width: 310px;

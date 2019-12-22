@@ -2,6 +2,8 @@
 
 A basic calculator. Built with Vue.js, Vuesax , & 💜.
 
+- 1st in a series of practice projects. 
+
 ## Project setup
 ```
 yarn install
