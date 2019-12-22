@@ -1,4 +1,4 @@
-# vue-calc - Dentaku
+# Dentaku...
 
 > A basic calculator. Built with Vue.js, Vuesax , & 💜.
 
