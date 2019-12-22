@@ -13,7 +13,14 @@
   </div>
 </template>
 
+
+
 <style lang="css">
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web&display=swap');
+
+#app {
+  font-family: 'Titillium Web', sans-serif;
+}
 #nav {
   position: fixed;
   display: block;
