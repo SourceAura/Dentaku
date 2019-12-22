@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/precache-manifest.853b6543ef4f721d321b4858b2c2e681.js"
+  "/precache-manifest.ce0d3dd6e1dbb1163f51b505c2da4bf9.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "dentaku"});
