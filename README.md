@@ -1,4 +1,6 @@
-# canvas-vue
+# vue-calc
+
+A basic calculator. Built with Vue.js, Vuesax , & 💜.
 
 ## Project setup
 ```
