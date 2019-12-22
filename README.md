@@ -4,11 +4,11 @@
 
 > 1st in a series of practice projects. 
 
-### What's it do? 
+### What's it do? - To-Do
 
 - [x] Basic Calculations
 - [ ] Tip Calculation..?
-- [ ] Complete Responsivity 1/2...
+- [ ] Complete Responsivity 
 
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/1e89f57c-185a-45e3-a537-646d97b9a10e/deploy-status)](https://app.netlify.com/sites/dentaku/deploys)
