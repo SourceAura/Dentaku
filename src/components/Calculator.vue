@@ -2,10 +2,10 @@
   <div class="calculator">
    
       <div class="display">{{ current || "0" }}</div>
-
-      <span @click="clear" class="btn">C</span>
-      <span @click="sign" class="btn">+/-</span>
-      <span @click="percent" class="btn">%</span>
+      <vs-button type="line" @click="clear" class="btn" color="white">C</vs-button>
+      <vs-button type="line" @click="sign" class="btn" color="white">+/-</vs-button>
+      <vs-button type="line" @click="percent" class="btn" color="white">%</vs-button>
+      
       <!-- ops -->
       <span @click="divide" class="btn operator">/</span>
       <!--  class="btn" -->
