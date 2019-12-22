@@ -2,24 +2,28 @@
   <div id="app">
     <div id="nav">
       <router-link to="/"
-        ><vs-icon icon="home" color="#FFF"></vs-icon
+        ><vs-icon icon="home" size="small" color="#FFF"></vs-icon
       ></router-link>
-      ||
+      <div></div>
+
+      <a href="https://github.com/SourceAura/vue-calc">
+        <vs-icon icon="code" size="small" color="#FFF"></vs-icon
+      ></a>
+
+      <div></div>
       <router-link to="/about">
-        <vs-icon icon="info" color="#FFF"></vs-icon
+        <vs-icon icon="info" size="small" color="#FFF"></vs-icon
       ></router-link>
     </div>
     <router-view />
   </div>
 </template>
 
-
-
 <style lang="css">
-@import url('https://fonts.googleapis.com/css?family=Titillium+Web&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Titillium+Web&display=swap");
 
 #app {
-  font-family: 'Titillium Web', sans-serif;
+  font-family: "Titillium Web", sans-serif;
 }
 #nav {
   position: fixed;
