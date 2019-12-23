@@ -1,6 +1,6 @@
 # Dentaku...
 
-> A basic calculator. Built with Vue.js, Vuesax , & 💜.
+> A basic calculator, PWA. Built with Vue.js, Vuesax , & 💜.
 
 > 1st in a series of practice projects. 
 
