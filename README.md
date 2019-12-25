@@ -8,15 +8,13 @@
 
 - [x] Basic Calculations
 - [ ] Tip Calculation..?
-- [ ] Complete Responsivity 
-
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/1e89f57c-185a-45e3-a537-646d97b9a10e/deploy-status)](https://app.netlify.com/sites/dentaku/deploys)
 
 [Link to Project](https://dentaku.netlify.com)
 
 
-## Build Setup
+## Project Setup
 
 ``` bash
 # install dependencies
